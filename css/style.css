@@ -1,5 +1,79 @@
+/* font-family: "GothamProMedium"; */
+@font-face {
+	font-family: "GothamMedium";
+	src: url("../fonts/GothamProMedium/GothamProMedium.eot");
+	src: url("../fonts/GothamProMedium/GothamProMedium.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/GothamProMedium/GothamProMedium.woff") format("woff"),
+	url("../fonts/GothamProMedium/GothamProMedium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+body{
+	font: 14px/1.4 "GothamMedium", Arial, sans-serif;
+}
 .ba-container{
 	width: 980px;
 	padding-left: 18px;
 	padding-right: 18px;
+}
+.du-header{
+	background: #ffffff;
+	background: -moz-linear-gradient(left,  #ffffff 0%, #ffffff 51%, #E94E38 51%, #e94e38 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(51%,#ffffff), color-stop(51%,#E94E38), color-stop(100%,#e94e38));
+	background: -webkit-linear-gradient(left,  #ffffff 0%,#ffffff 51%,#E94E38 51%,#e94e38 100%);
+	background: -o-linear-gradient(left,  #ffffff 0%,#ffffff 51%,#E94E38 51%,#e94e38 100%);
+	background: -ms-linear-gradient(left,  #ffffff 0%,#ffffff 51%,#E94E38 51%,#e94e38 100%);
+	background: linear-gradient(to right,  #ffffff 0%,#ffffff 51%,#E94E38 51%,#e94e38 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e94e38',GradientType=1 );
+
+}
+.du-logo img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.du-search{
+	background-color: #e2dee0;
+	width: 74px;
+	font-size: 24px;
+	text-align: center;
+}
+.du-search,
+.du-login,
+.du-logo{
+	height: 74px;
+	line-height: 74px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.du-login{
+	padding: 0 40px;
+	background: #E94E38;
+	font-size: 14px;
+}
+.du-login .fa{
+	font-size: 18px;
+}
+.du-menu{
+	background: #ffffff;
+}
+.du-menu a{
+	display: block;
+	font-size: 14px;
+	line-height: 74px;
+	height: 74px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #96a6a7;
+	padding: 0 20px 0 0;
+}
+.du-menu a:hover{
+	color: #E94E38;
+}
+.du-menu li{
+	float: left;
+}
+.du-search-row{
+	background: #eeeeee;
+	padding: 20px 0;
 }
